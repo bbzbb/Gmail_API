@@ -17,7 +17,7 @@ Learning to work with the Gmail API - will include further automation if necessa
 
 ```
 
-7. Point the .py file towards the credentials.json you got from step #4.  I stored mine in an environment variable and called it for security purposes.
+7. Point the .py file towards the credentials.json you got from step #4.  I stored mine in an environment variable for security purposes.
 8. Walk through this to allow a test user so you don't have to publish you google project: https://stackoverflow.com/questions/75454425/access-blocked-project-has-not-completed-the-google-verification-process.
     - You must use a gmail account as the "sender" for this to work.
 9. Once everything is set up and your gmail account is set up as a test user, run the code:
