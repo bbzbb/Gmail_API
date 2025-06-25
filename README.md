@@ -2,7 +2,7 @@
 Learning to work with the Gmail API - will include further automation if necessary
 
 1. Utilizing steps found here: https://mailtrap.io/blog/send-emails-with-gmail-api/ .
-    1.1 Also found this: https://developers.google.com/identity/protocols/oauth2/#basicsteps
+    - Also found this: https://developers.google.com/identity/protocols/oauth2/#basicsteps
 2. Create a project at the Google developers console: https://console.developers.google.com/
 3. Enable the Gmail API.
 4. Create OAuth Client ID for desktop app and received client_secret.json
@@ -19,4 +19,9 @@ Learning to work with the Gmail API - will include further automation if necessa
 
 7. Point the .py file towards the credentials.json you got from step #4.  I stored mine in an environment variable and called it for security purposes.
 8. Walk through this to allow a test user so you don't have to publish you google project: https://stackoverflow.com/questions/75454425/access-blocked-project-has-not-completed-the-google-verification-process.
-9. 
+    - You must use a gmail account as the "sender" for this to work.
+9. Once everything is set up and your gmail account is set up as a test user, run the code:
+
+```
+python send_gmail_email.py
+```
